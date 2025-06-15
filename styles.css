@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://instagram.fcdg2-1.fna.fbcdn.net/v/t51.29350-15/357972818_240684212202832_1341989422710924166_n.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.hero h2 {
+  font-size: 3em;
+  max-width: 80%;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
