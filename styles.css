@@ -1,58 +1,63 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: black;
-  color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
 }
 
 header {
-  background: #111;
-  padding: 20px;
-  text-align: center;
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
 }
 
 header h1 {
-  font-size: 2em;
-  margin: 0;
-  letter-spacing: 2px;
+    margin: 0;
+    font-size: 2.5em;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 20px 0;
+    margin-top: 10px;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff3366;
 }
 
 .hero {
-  background: url('https://instagram.fcdg2-1.fna.fbcdn.net/v/t51.29350-15/357972818_240684212202832_1341989422710924166_n.jpg') center/cover no-repeat;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: 2px 2px 5px #000;
+    background: linear-gradient(135deg, #111, #222);
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .hero h2 {
-  font-size: 3em;
-  max-width: 80%;
-  text-align: center;
+    font-size: 1.8em;
+    margin: 0;
 }
 
 section {
-  padding: 40px 20px;
-  text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
 
 footer {
-  background: #111;
-  padding: 20px;
-  text-align: center;
-  font-size: 0.9em;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #aaa;
 }
